@@ -4,7 +4,7 @@
 	
 </head>
 <body>
-	<form ng-controller="FormCtrl" ng-submit="submit()" novalidate>	
+	<form ng-controller="FormCtrl" ng-submit="submit()" name="myForm" novalidate>	
     	<label for="country">Country</label>
 		<select name="country" ng-model="data.country" ng-options="country for country in ['Antigua', 'Aruba', 'Burundi', 'Brunei']">...</select><br>
 		<label for="title">Title</label>
